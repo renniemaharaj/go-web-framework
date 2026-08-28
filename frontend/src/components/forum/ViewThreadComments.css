@@ -204,7 +204,7 @@
   border-radius: 10px;
   border: none;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   cursor: pointer;
   padding: 0;
   transition: opacity 0.12s ease, transform 0.1s ease;
@@ -225,7 +225,7 @@
 .comment-composer-send,
 .pp-chat-send {
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   border: none;
   cursor: pointer;
   display: flex;

@@ -214,8 +214,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  background: rgba(0, 0, 0, 0.68);
+  color: var(--text-inverse);
+  background: color-mix(in srgb, var(--overlay-dark-heavy) 77%, transparent);
   backdrop-filter: blur(6px);
 }
 

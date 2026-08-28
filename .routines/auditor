@@ -93,6 +93,11 @@ truth and implementation meet the highest maintainability and product-quality ba
 
 ## Last Run Remarks
 
+- Audited CSS normalization across token authority, stylesheet ownership,
+  cross-domain imports, large-file classification, isolated clipmaker behavior,
+  fallback use, and `!important` exceptions. No material affected-scope issue
+  remains after complete frontend and policy verification.
+
 - Audited frontend maintainability and design ownership across all first-party
   TS/TSX/CSS, existing UI and shell plans, shared primitives, route/domain CSS,
   and current frontend contracts. High-severity maintainability hotspots are the

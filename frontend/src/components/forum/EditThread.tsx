@@ -4,7 +4,6 @@ import { Suspense, lazy, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 const Editor = lazy(() => import("./Editor"));
 import ForumCategory from "./ForumCategory";
-import "./IconButton.css";
 
 import { currentThreadAtom, draftEditThreadAtom } from "../../atoms/forum";
 import { useWebSocketSync } from "../../hooks/useWebSocketSync";

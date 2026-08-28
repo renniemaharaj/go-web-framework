@@ -2,6 +2,7 @@ import { Plus } from "lucide-react";
 import { useState } from "react";
 import type { NavigateFunction } from "react-router-dom";
 import { ContentStandOutCard } from "../cards/ContentStandOutCard";
+import "../ui/FeatureCard.css";
 
 interface ForumActionCardProps {
   canCreateCategory: boolean;

@@ -3,7 +3,7 @@
   overflow: hidden;
   --mouse-x: 50%;
   --mouse-y: 50%;
-  --spotlight-color: rgba(255, 255, 255, 0.05);
+  --spotlight-color: color-mix(in srgb, var(--text-inverse) 5%, transparent);
 }
 
 .card-spotlight::before {

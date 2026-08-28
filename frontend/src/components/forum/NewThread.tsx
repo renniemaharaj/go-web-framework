@@ -5,7 +5,6 @@ import { draftNewThreadAtom } from "../../atoms/forum";
 import { apiRequest } from "../../utils/api";
 import { FormField, ManagedForm } from "../form";
 import ForumCategory from "./ForumCategory";
-import "./IconButton.css";
 
 const Editor = lazy(() => import("./Editor"));
 

@@ -111,6 +111,12 @@ operational policies.
 
 ## Last Run Remarks
 
+- Reconciled completed CSS normalization into the frontend contract and sequence
+  state. `check:css-architecture` is now the durable authority for stylesheet
+  ownership budgets, token drift, fallbacks, reviewed `!important` use,
+  cross-domain imports, and the isolated clipmaker duplicate boundary; sequence
+  index 3 is the next worker handoff.
+
 - Created the six-stage `frontend_maintainability_normalization_sequence` from a
   whole-frontend size, ownership, primitive-adoption, and CSS-drift inventory.
   The sequence reuses `ui_primitive_consolidation` as its foundation stage,

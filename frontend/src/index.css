@@ -60,6 +60,8 @@
   --focus-ring: 0 0 0 3px rgba(91, 158, 142, 0.15);
   --overlay-dark: rgba(0, 0, 0, 0.5);
   --overlay-dark-heavy: rgba(0, 0, 0, 0.88);
+  --overlay-light-subtle: rgba(255, 255, 255, 0.1);
+  --text-inverse: #ffffff;
   --scrollbar-thumb: rgba(0, 0, 0, 0.15);
   --terminal-bg: #0a0a0a;
   --terminal-text: #e5e5e5;
@@ -69,6 +71,7 @@
   /* Typography & Modern Layout Tokens */
   --font-sans: "Inter", "Outfit", "Roboto", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  --header-height: 72px;
   --radius-xs: 4px;
   --radius-sm: 6px;
   --radius-md: 8px;
@@ -173,6 +176,8 @@ html[data-theme="dark"] {
   --focus-ring: 0 0 0 3px rgba(123, 179, 160, 0.2);
   --overlay-dark: rgba(0, 0, 0, 0.6);
   --overlay-dark-heavy: rgba(0, 0, 0, 0.88);
+  --overlay-light-subtle: rgba(255, 255, 255, 0.1);
+  --text-inverse: #ffffff;
   --scrollbar-thumb: rgba(255, 255, 255, 0.15);
 
   /* Typography & Modern Layout Tokens */

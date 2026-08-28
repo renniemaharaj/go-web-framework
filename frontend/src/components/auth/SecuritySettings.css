@@ -79,7 +79,7 @@
 
 .sec-panel__btn--primary {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--text-inverse);
 }
 .sec-panel__btn--primary:hover:not(:disabled) {
   opacity: 0.9;
@@ -92,7 +92,7 @@
 }
 .sec-panel__btn--danger:hover:not(:disabled) {
   background: var(--error-color);
-  color: #fff;
+  color: var(--text-inverse);
 }
 
 .sec-panel__btn:disabled {

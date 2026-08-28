@@ -3,7 +3,7 @@
   padding: 80px 40px;
   background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
   text-align: center;
-  color: white;
+  color: var(--text-inverse);
   opacity: 0;
   animation: fadeIn 0.6s ease-out 0.3s forwards;
 }
@@ -15,7 +15,7 @@
 
 .cta-content h2 {
   font-size: 2.5rem;
-  color: white;
+  color: var(--text-inverse);
   margin-bottom: 16px;
   animation: fadeInDown 0.8s ease-out 0.5s both;
 }
@@ -36,7 +36,7 @@
 }
 
 .cta .btn-primary {
-  background-color: white;
+  background-color: var(--text-inverse);
   color: var(--primary-dark);
 }
 
@@ -47,13 +47,13 @@
 
 .cta .btn-secondary {
   background-color: transparent;
-  color: white;
-  border-color: white;
+  color: var(--text-inverse);
+  border-color: var(--text-inverse);
 }
 
 .cta .btn-secondary:hover {
   background-color: color-mix(in srgb, var(--bg-color) 10%, transparent);
-  border-color: white;
+  border-color: var(--text-inverse);
 }
 
 /* Responsive */

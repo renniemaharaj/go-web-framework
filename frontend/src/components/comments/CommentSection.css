@@ -52,7 +52,7 @@
 
 .comment-slowmode-toggle.active {
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   border-color: transparent;
 }
 

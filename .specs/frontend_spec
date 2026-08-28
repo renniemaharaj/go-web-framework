@@ -451,6 +451,11 @@ All UI colors, shadows, radii, and fonts must route through global tokens in
 - `!important` is allowed only for third-party overrides, page-builder inline
   alignment overrides, intentional resets, or mobile grid collapse.
 - Component CSS should primarily own layout, positioning, overflow, and animation.
+- `npm run check:css-architecture` enforces stylesheet ownership and growth
+  budgets, the isolated clipmaker duplicate signatures, reviewed cross-domain
+  import boundaries, token-only first-party colors, fallback-free `var()` usage,
+  and per-owner `!important` ceilings. `index.css` remains the color-token
+  authority and clipmaker remains the explicit isolated integration boundary.
 
 ## UI Layout Contracts
 

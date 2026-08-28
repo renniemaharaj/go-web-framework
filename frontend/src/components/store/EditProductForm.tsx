@@ -7,7 +7,6 @@ import { FormCheckbox, FormField, FormSelect, ManagedForm } from "../form";
 import Button from "../ui/Button";
 import Select from "../ui/Select";
 import { ProductMediaTable } from "./ProductMediaTable";
-import "../forum/IconButton.css";
 
 export interface EditProductFormProps {
   product: Product;

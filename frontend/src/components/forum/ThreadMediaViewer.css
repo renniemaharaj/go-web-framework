@@ -3,6 +3,13 @@
   color: var(--text-secondary);
 }
 
+.tmv-container .up-empty-hint {
+  margin: 0;
+  padding: 1rem 0;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
 .tmv-container .up-section-heading {
   margin: 0;
   padding-bottom: 1rem;

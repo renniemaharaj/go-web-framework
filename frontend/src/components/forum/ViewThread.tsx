@@ -4,7 +4,7 @@ import "prism-code-editor-lightweight/themes/github-dark.css";
 import "katex/dist/katex.min.css";
 import "easydrawer/styles.css";
 import "react-image-crop/dist/ReactCrop.css";
-import "./Editor.css";
+import "../ui/RichTextEditor.css";
 import { RichTextRenderer } from "../ui/RichTextRenderer";
 
 function ViewThread({ content }: { content: string }) {

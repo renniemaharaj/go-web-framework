@@ -54,7 +54,7 @@
   border: none;
   border-radius: 8px;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   cursor: pointer;
   flex-shrink: 0;
   transition: opacity 0.15s ease;

@@ -19,7 +19,7 @@
   font-size: 0.8125rem;
   font-weight: 600;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -103,7 +103,7 @@
   position: relative;
   height: 240px;
   overflow: hidden;
-  padding: var(--content-flat-card-padding, var(--card-padding));
+  padding: var(--card-padding);
   border-bottom: 1px solid var(--card-border);
 }
 
@@ -409,7 +409,7 @@
   font-size: 0.8125rem;
   font-weight: 600;
   background: var(--success-color);
-  color: white;
+  color: var(--text-inverse);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -433,7 +433,7 @@
   font-size: 0.8125rem;
   font-weight: 600;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -644,7 +644,7 @@
   font-size: 0.625rem;
   font-weight: 700;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   border-radius: 9px;
 }
 
@@ -831,10 +831,11 @@
 }
 
 .ds-component-preview {
+  --ds-component-gap: 8px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: var(--ds-component-gap, 8px);
+  gap: var(--ds-component-gap);
   margin-top: 1rem;
   position: relative;
 }
@@ -1083,7 +1084,7 @@
 
 .ds-preview__save-section-btn:hover {
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
 }
 
 .ds-preview__note {
@@ -1192,7 +1193,7 @@
   padding: 0.3rem 0.75rem;
   font-size: 0.75rem;
   font-weight: 600;
-  color: white;
+  color: var(--text-inverse);
   background: var(--primary-color);
   border: none;
   border-radius: 6px;
@@ -1465,7 +1466,7 @@
   text-align: center;
   padding: 1px 5px;
   border-radius: 3px;
-  color: white;
+  color: var(--text-inverse);
   background: var(--primary-color);
   flex-shrink: 0;
 }

@@ -1,7 +1,7 @@
 import { Link2, ShieldCheck, Trash2, UserRound } from "lucide-react";
 import type { ProfileUser } from "../types";
 import { useProfileEdit } from "../useProfileEdit";
-import "../UserProfile.css";
+import "./ProfileSettings.css";
 import Button from "../../ui/Button";
 import Select from "../../ui/Select";
 import { FormFileInput, FormSectionIntro, ManagedForm, type ManagedFormTab } from "../../form";
@@ -183,7 +183,7 @@ export default function ProfileSettings({
               <UserAvatar
                 src={avatarPreview || editAvatarUrl}
                 alt="Avatar preview"
-                className="up-img-preview up-img-preview-avatar"
+                className="profile-settings-preview profile-settings-preview--avatar"
                 size={96}
               />
             )}
@@ -218,7 +218,7 @@ export default function ProfileSettings({
               <MediaPlaceholder
                 href={bannerPreview || editBannerUrl}
                 alt="Banner preview"
-                className="up-img-preview up-img-preview-banner"
+                className="profile-settings-preview profile-settings-preview--banner"
                 fit="cover"
                 layout="thumbnail"
                 mediaType="image"

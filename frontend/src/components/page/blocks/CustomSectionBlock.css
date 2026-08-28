@@ -308,7 +308,7 @@
   border: 1px solid color-mix(in srgb, var(--bg-color) 12%, transparent);
   border-radius: 16px;
   padding: 1.25rem 1.5rem;
-  color: white;
+  color: var(--text-inverse);
 }
 
 .custom-section-protected__content svg {
@@ -334,7 +334,7 @@
   padding: 0.75rem 1rem;
   border-radius: 999px;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   text-decoration: none;
   font-weight: 600;
 }
@@ -366,9 +366,9 @@
   margin-bottom: 0.75rem;
   font-size: 0.7rem;
   font-weight: 500;
-  color: var(--text-secondary, #6b7280);
-  background: var(--bg-tertiary, #f3f4f6);
-  border: 1px solid var(--border-color, #e5e7eb);
+  color: var(--text-secondary);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
   border-radius: 6px;
   letter-spacing: 0.01em;
 }
@@ -381,7 +381,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--primary-color, #3b82f6);
-  background: color-mix(in srgb, var(--primary-color, #3b82f6) 10%, transparent);
+  color: var(--primary-color);
+  background: color-mix(in srgb, var(--primary-color) 10%, transparent);
   border-radius: 4px;
 }

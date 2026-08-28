@@ -2,7 +2,7 @@
 .mention-badge {
   font-weight: 600;
   color: var(--color-primary);
-  background-color: rgba(var(--color-primary-rgb), 0.1);
+  background-color: color-mix(in srgb, var(--primary-color) 10%, transparent);
   padding: 2px 6px;
   border-radius: 4px;
   margin: 0 2px;
@@ -14,43 +14,43 @@
 
 [data-type="mention"]:hover,
 .mention-badge:hover {
-  background-color: rgba(var(--color-primary-rgb), 0.2);
+  background-color: color-mix(in srgb, var(--primary-color) 20%, transparent);
 }
 
 [data-type="mention"][data-id="special-here"],
 .mention-special {
   color: var(--color-warning);
-  background-color: rgba(var(--color-warning-rgb), 0.1);
+  background-color: color-mix(in srgb, var(--warning-color) 10%, transparent);
 }
 
 [data-type="mention"][data-id="special-here"]:hover,
 .mention-special:hover {
-  background-color: rgba(var(--color-warning-rgb), 0.2);
+  background-color: color-mix(in srgb, var(--warning-color) 20%, transparent);
 }
 
 [data-type="mention"][data-id="special-everyone"] {
   color: var(--color-danger);
-  background-color: rgba(var(--color-danger-rgb), 0.1);
+  background-color: color-mix(in srgb, var(--error-color) 10%, transparent);
 }
 
 [data-type="mention"][data-id="special-everyone"]:hover {
-  background-color: rgba(var(--color-danger-rgb), 0.2);
+  background-color: color-mix(in srgb, var(--error-color) 20%, transparent);
 }
 
 .mention-role {
   color: var(--color-secondary);
-  background-color: rgba(var(--color-secondary-rgb), 0.1);
+  background-color: color-mix(in srgb, var(--text-secondary) 10%, transparent);
 }
 
 .mention-role:hover {
-  background-color: rgba(var(--color-secondary-rgb), 0.2);
+  background-color: color-mix(in srgb, var(--text-secondary) 20%, transparent);
 }
 
 .mention-dropdown {
-  background-color: var(--color-bg-elevated, var(--bg-elevated));
-  border: 1px solid var(--color-border, var(--border-color));
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-color);
   border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-lg);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
   padding: 8px 12px;
   text-align: left;
   background-color: transparent;
-  color: var(--color-text-primary, var(--text-primary));
+  color: var(--text-primary);
   border: none;
   cursor: pointer;
   display: flex;
@@ -72,7 +72,7 @@
 
 .mention-item.is-selected,
 .mention-item:hover {
-  background-color: rgba(var(--color-primary-rgb), 0.15);
+  background-color: color-mix(in srgb, var(--primary-color) 15%, transparent);
 }
 
 .mention-loading {
@@ -95,7 +95,7 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: rgba(var(--color-primary-rgb), 0.2);
+  background-color: color-mix(in srgb, var(--primary-color) 20%, transparent);
   color: var(--color-primary);
   display: flex;
   align-items: center;
@@ -117,5 +117,5 @@
 .mention-empty {
   padding: 8px 12px;
   opacity: 0.5;
-  color: var(--color-text-primary, var(--text-primary));
+  color: var(--text-primary);
 }

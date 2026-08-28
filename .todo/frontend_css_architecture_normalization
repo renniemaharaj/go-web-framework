@@ -28,8 +28,10 @@ the same 350-line button/card block at lines 1960-2309 and 2883-3232.
 2. Delete the exact repeated clipmaker block, scope the remaining imported
    third-party rules, and replace platform-owned button/dialog styles there with
    canonical primitives where the isolated integration permits it.
-3. Remove global/primitive duplicate button and surface recipes after index 1
-   defines the canonical compatibility path.
+3. Keep the global button/card compatibility recipes only for existing raw
+   consumers during the normalization window defined by `.specs/frontend_spec`;
+   prevent new competing recipes here and retire compatibility after the
+   residual consumer migration at sequence index 6.
 4. Move shared directory, form, lightbox, menu, and feature-card behavior behind
    their owning components; eliminate imports of another route's stylesheet.
 5. Replace hard-coded colors outside `index.css` with semantic tokens. Classify
@@ -50,4 +52,3 @@ the same 350-line button/card block at lines 1960-2309 and 2883-3232.
 - `frontend/src/pages/clipmaker/isolated-studio.css`
 - `frontend/src/components/page/page-builder-core.css`
 - `frontend/src/components/page/datasources/DataSources.css`
-

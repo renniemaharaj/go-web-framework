@@ -13,6 +13,6 @@
 
 .user-avatar-placeholder {
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   font-weight: 700;
 }

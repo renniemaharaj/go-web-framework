@@ -84,6 +84,11 @@ docs disagree.
 
 ## Last Run Remarks
 
+- Reconciled the CSS plan with implementation truth: large cohesive engines stay
+  intact under explicit non-growth budgets, shared TipTap and preview styles now
+  live with their owners, and token/fallback/exception rules are executable
+  policy rather than inventory prose. The frontend spec and sequence state agree.
+
 - Reconciled the prior targeted primitive work with current implementation truth.
   `ui_primitive_consolidation` did complete its named route migrations, but it did
   not establish a single repository-wide component authority: `components/input`

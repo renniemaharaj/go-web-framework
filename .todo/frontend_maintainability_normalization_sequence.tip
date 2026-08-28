@@ -13,8 +13,11 @@
 - [x] 2026-08-27: Completed sequence index 1, `ui_primitive_consolidation`,
   with canonical `components/ui` ownership, compatibility re-exports, named
   core-route migration, focused tests, and complete frontend verification.
-- [ ] Execute sequence index 2, `frontend_css_architecture_normalization`.
-- [ ] Advance through indexes 2-6 only after each lower member is complete.
+- [x] 2026-08-28: Completed sequence index 2 with token-only first-party CSS,
+  fallback removal, corrected stylesheet ownership, and ratcheted duplicate,
+  import, size, color, fallback, and `!important` policy checks.
+- [ ] Execute sequence index 3, `frontend_admin_tooling_decomposition`.
+- [ ] Advance through indexes 3-6 only after each lower member is complete.
 - [ ] Re-run the inventory and reconcile `.specs/frontend_spec` after index 6.
 
 ### Recorded Exception
@@ -23,7 +26,7 @@
   browser-accessible Grengo control plane may also be removed out of order
   because that change reduces security exposure instead of introducing a new
   UI contract. This exception does not mark indexes 2-5 complete or permit new
-  higher-index scope; index 2 remains the next sequence worker.
+  higher-index scope; index 3 is now the next sequence worker.
 
 ### Audit Baseline (2026-08-27)
 - 118,189 TypeScript/TSX/CSS lines; 372 TSX files and 141 CSS files.

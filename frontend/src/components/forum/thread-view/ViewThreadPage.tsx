@@ -24,7 +24,6 @@ import ViewThreadComments from "../ViewThreadComments";
 import ViewThreadMeta from "../ViewThreadMeta";
 
 import "./ViewThreadPage.css";
-import "../IconButton.css";
 
 interface ViewThreadPageProps {
   embeddedThreadId?: string;

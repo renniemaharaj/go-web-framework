@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { apiRequest } from "../../utils/api";
 import { FormField, ManagedForm } from "../form";
-import "./IconButton.css";
 
 interface CategoryValues {
   name: string;

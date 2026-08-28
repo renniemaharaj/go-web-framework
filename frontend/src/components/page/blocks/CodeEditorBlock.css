@@ -129,7 +129,7 @@
 
 .code-editor-action-btn:hover {
   background: color-mix(in srgb, var(--bg-color) 10%, transparent);
-  color: white;
+  color: var(--text-inverse);
 }
 
 /* Rendered preview (HTML / markdown) */

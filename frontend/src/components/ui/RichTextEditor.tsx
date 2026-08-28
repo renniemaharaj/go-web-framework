@@ -7,7 +7,7 @@ import "prism-code-editor-lightweight/themes/github-dark.css";
 import "katex/dist/katex.min.css";
 import "easydrawer/styles.css";
 import "react-image-crop/dist/ReactCrop.css";
-import "../forum/Editor.css";
+import "./RichTextEditor.css";
 
 import { useThemeContext } from "../../hooks/theme/useThemeContext";
 import extensions from "../forum/extensions";

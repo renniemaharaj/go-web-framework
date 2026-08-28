@@ -56,10 +56,10 @@
   left: 0;
   top: 0;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: var(--text-inverse);
   padding: 4px 10px;
   font-size: 10px;
-  color: #2d2d2d;
+  color: var(--terminal-bg);
   opacity: 0;
   z-index: 3;
 }

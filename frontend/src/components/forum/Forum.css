@@ -3,10 +3,12 @@
 }
 
 .forum-article-layout {
+  --directory-content-max-width: 1400px;
+  --directory-inline-padding: 40px;
   width: 100%;
-  max-width: var(--directory-content-max-width, 1400px);
+  max-width: var(--directory-content-max-width);
   margin: 0 auto;
-  padding: 0 var(--directory-inline-padding, 40px);
+  padding: 0 var(--directory-inline-padding);
 }
 
 .forum-header {

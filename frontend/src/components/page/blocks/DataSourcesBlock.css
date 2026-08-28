@@ -27,7 +27,7 @@
   border: none;
   border-radius: 8px;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
@@ -192,7 +192,7 @@
   border: none;
   border-radius: 8px;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   font-weight: 600;
   cursor: pointer;
   font-size: 0.85rem;
@@ -252,7 +252,7 @@
   border: 1px solid color-mix(in srgb, var(--bg-color) 12%, transparent);
   border-radius: 16px;
   padding: 1.25rem 1.5rem;
-  color: white;
+  color: var(--text-inverse);
 }
 
 .data-sources-protected__content svg {
@@ -278,7 +278,7 @@
   padding: 0.75rem 1rem;
   border-radius: 999px;
   background: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   text-decoration: none;
   font-weight: 600;
 }

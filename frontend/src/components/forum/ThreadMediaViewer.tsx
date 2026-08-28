@@ -3,7 +3,6 @@ import { ImageIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { currentThreadAtom } from "../../atoms/forum";
 import { ContentFlatCard } from "../cards/ContentFlatCard";
-import "../user/UserProfile.css";
 import "./ThreadMediaViewer.css";
 import UserUploads from "../user/UserUploads";
 

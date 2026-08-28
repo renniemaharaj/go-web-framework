@@ -1,12 +1,11 @@
 .richtext-outline,
 .richtext-outline-1 {
   outline: none;
-  /* box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary-color) 10%, transparent); */
   background-color: transparent;
-  /* color: var(--text-primary); */
 }
 
-/* TipTap Renderer Responsive Styling */
+/* Reviewed TipTap overrides. The upstream package assigns inline geometry and
+   elevation, so the app editor boundary must win these declarations. */
 .reactjs-tiptap-editor .richtext-shadow,
 .richtext-dialog-content .richtext-shadow,
 .richtext-shadow {
@@ -19,8 +18,6 @@
   min-height: auto !important;
 }
 
-/* TipTap fixes these controls at 28px; the app-wide button padding otherwise
-   consumes their content box and makes the plus/grip icons appear blank. */
 .editor-wrapper .drag-handle button {
   padding: 0;
 }
@@ -37,7 +34,6 @@
 .renderer-editor .ProseMirror {
   box-shadow: none !important;
   outline: none !important;
-  /* min-width: 50rem; */
   padding: 0.5rem 0.75rem !important;
 }
 
@@ -60,10 +56,6 @@
   outline: none !important;
 }
 
-/* .editor-wrapper .ProseMirror {
-  min-height: var(--editor-min-height) !important;
-} */
-/* Import HTML button toolbar */
 .editor-toolbar {
   display: flex;
   justify-content: flex-end;
@@ -89,7 +81,6 @@
   transform: translateY(1px);
 }
 
-/* Ensure editor doesn't have excessive borders */
 .richtext-editor,
 .richtext-editor-content {
   border-width: 1px !important;

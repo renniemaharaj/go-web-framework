@@ -15,7 +15,6 @@ import CategoryThreadsFeed from "./CategoryThreadsFeed";
 import { Forum } from "./Forum";
 
 import "./CategoryThreadsPage.css";
-import "./IconButton.css";
 
 const CategoryThreadsPage = () => {
   const { categoryId } = useParams<{ categoryId: string }>();

@@ -83,7 +83,7 @@
   padding: 4rem 1rem;
 }
 .u-color-var-color-danger-e74c3c {
-  color: var(--color-danger, #e74c3c);
+  color: var(--error-color);
 }
 .u-padding-3rem-1rem-1rem {
   padding: 3rem 1rem 1rem;
@@ -140,7 +140,7 @@
   right: 2px;
 }
 .u-background-rgba-red {
-  background: rgba(255, 0, 0, 0.7);
+  background: color-mix(in srgb, var(--error-color) 70%, transparent);
 }
 .u-padding-0-25rem {
   padding: 0.25rem;
@@ -212,7 +212,7 @@
   object-fit: cover;
 }
 .u-background-black {
-  background-color: black;
+  background-color: var(--terminal-bg);
 }
 .u-background-bg-tertiary {
   background-color: var(--bg-tertiary);
@@ -227,7 +227,7 @@
   max-height: 80vh;
 }
 .u-background-000 {
-  background-color: #000;
+  background-color: var(--overlay-dark-heavy);
 }
 .u-color-var-text-warning {
   color: var(--text-warning);
@@ -240,7 +240,7 @@
   display: flex;
   gap: 12px;
   padding: 16px;
-  background-color: rgba(255, 170, 0, 0.1);
+  background-color: var(--warning-bg);
   border-radius: 8px;
   margin-bottom: 24px;
   color: var(--text-secondary);

@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { apiRequest } from "../../utils/api";
 import { FormField, ManagedForm } from "../form";
-import "../forum/IconButton.css";
 
 interface StoreCategoryValues {
   name: string;

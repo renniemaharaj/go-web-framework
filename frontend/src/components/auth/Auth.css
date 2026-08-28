@@ -169,7 +169,7 @@
 .auth-button {
   padding: 12px 24px;
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--skaia-green-primary) 100%);
-  color: white;
+  color: var(--text-inverse);
   border: none;
   border-radius: 8px;
   font-weight: 600;

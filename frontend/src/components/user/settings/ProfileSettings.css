@@ -1,0 +1,15 @@
+.profile-settings-preview {
+  object-fit: cover;
+  display: block;
+}
+
+.profile-settings-preview--avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-settings-preview--banner {
+  width: 100%;
+  height: 100px;
+}

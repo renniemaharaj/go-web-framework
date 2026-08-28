@@ -14,7 +14,6 @@ import RichTextEditor from "../../components/ui/RichTextEditor";
 import { useDirtyNavigationGuard } from "../../hooks/useDirtyNavigationGuard";
 import { apiRequest } from "../../utils/api";
 import "../../components/documentation/DocumentationShell.css";
-import "../../components/forum/IconButton.css";
 
 interface GuideDraft {
   title: string;

@@ -1,4 +1,5 @@
 import { ContentFlatCard } from "../../cards/ContentFlatCard";
+import "../../ui/FeatureCard.css";
 import { ICON_MAP } from "../iconMap";
 import type { PageItem, PageSection } from "../types";
 import "./FeatureGridBlock.css";

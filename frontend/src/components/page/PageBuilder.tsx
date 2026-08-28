@@ -26,7 +26,6 @@ import { PageSkeleton } from "./PageSkeleton";
 import { SaveStatusBar } from "./SaveStatusBar";
 import type { PageDocumentID, PageItem, PageSection, SectionEditor } from "./types";
 import "./PageBuilder.css";
-import "../ui/FeatureCard.css";
 
 const ResourceAnalytics = lazy(() => import("../analytics/ResourceAnalytics"));
 

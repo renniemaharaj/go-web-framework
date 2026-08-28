@@ -231,13 +231,13 @@
 .banner-content {
   text-align: center;
   max-width: 1000px;
-  color: white;
+  color: var(--text-inverse);
   padding: 40px 20px;
 }
 
 .banner-content h1 {
   font-size: 4rem;
-  color: white;
+  color: var(--text-inverse);
   font-weight: 900;
   margin-bottom: 16px;
   /* text-shadow: 0 4px 20px var(--text-primary); */
@@ -246,7 +246,7 @@
 }
 
 .banner-content p {
-  color: white;
+  color: var(--text-inverse);
   font-size: 1.4rem;
   margin-bottom: 40px;
   text-shadow: 0 2px 10px var(--text-primary);

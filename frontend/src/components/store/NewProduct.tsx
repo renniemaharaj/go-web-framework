@@ -7,7 +7,6 @@ import { apiRequest } from "../../utils/api";
 import { FormCheckbox, FormField, FormSelect, ManagedForm } from "../form";
 import Select from "../ui/Select";
 import { ProductMediaTable } from "./ProductMediaTable";
-import "../forum/IconButton.css";
 
 interface SpecialAction {
   type: string;

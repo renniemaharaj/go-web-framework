@@ -5,9 +5,9 @@
 
 ### Current Progress
 - **Phase 1: Ownership and duplication inventory** - ✅ Complete
-- **Phase 2: Token and primitive CSS alignment** - ⬜ Not started
-- **Phase 3: Domain stylesheet decomposition** - ⬜ Not started
-- **Phase 4: Visual and policy verification** - ⬜ Not started
+- **Phase 2: Token and primitive CSS alignment** - ✅ Complete
+- **Phase 3: Domain stylesheet decomposition** - ✅ Complete
+- **Phase 4: Visual and policy verification** - ✅ Complete
 
 ### Next Steps
 - [x] 2026-08-27: Sequence index 1 defined canonical `components/ui` ownership
@@ -15,10 +15,20 @@
 - [x] 2026-08-27: Removed the verified 350-line clipmaker utility duplicate;
   `npm run check:css-architecture` now requires each signature selector exactly
   once so the copied block cannot silently return.
-- [ ] Replace cross-domain stylesheet imports with owner components or shared recipes.
+- [x] 2026-08-28: Removed dead forum icon CSS, moved TipTap overrides to the
+  shared rich-text editor owner, localized profile preview styling, loaded the
+  feature-card recipe from its direct consumers, and protected the corrected
+  domain boundaries in the architecture gate.
 - [x] 2026-08-27: Deployment cards no longer import order-route CSS and uploads
   no longer import profile/directory CSS; the CSS architecture gate protects
   those corrected boundaries while the broader cross-domain inventory remains.
-- [ ] Classify and ratchet hard colors, `var()` fallbacks, and `!important` exceptions.
+- [x] 2026-08-28: First-party CSS outside `index.css` and isolated clipmaker now
+  has zero literal hex/rgb/named colors and zero `var()` fallbacks. The gate
+  classifies every stylesheet over 500 lines and ratchets its owner budget,
+  rejects new unowned large files, and caps every reviewed `!important` owner.
+- [x] 2026-08-28: All 300 serial frontend tests, lint, production build,
+  CSS architecture, native-dialog, media-placeholder, managed-form, and
+  loading-boundary checks pass. Deterministic component and build coverage was
+  used because this repository has no screenshot-test harness configured.
 
 <--/------->

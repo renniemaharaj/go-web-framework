@@ -878,7 +878,7 @@
 .btn-add-to-cart {
   padding: 10px 16px;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -943,7 +943,7 @@
 
 .btn-admin-icon.btn-danger:hover {
   background: var(--error-color);
-  color: white;
+  color: var(--text-inverse);
 }
 
 .store-special-actions {
@@ -1023,12 +1023,12 @@
 .btn-admin-action:hover {
   background: var(--primary-color);
   border-color: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
 }
 
 .btn-admin-action.btn-danger:hover {
   background: var(--error-color);
-  color: white;
+  color: var(--text-inverse);
   border-color: var(--error-color);
 }
 
@@ -1080,7 +1080,7 @@
 
 .store-orders-badge {
   background: var(--error-color);
-  color: white;
+  color: var(--text-inverse);
 }
 
 @media (max-width: 768px) {

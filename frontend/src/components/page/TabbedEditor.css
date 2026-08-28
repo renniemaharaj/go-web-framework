@@ -148,8 +148,8 @@
 }
 
 .tabbed-editor__badge--warn {
-  background: rgba(255, 180, 0, 0.15);
-  color: #e08800;
+  background: var(--warning-bg);
+  color: var(--warning-color);
 }
 
 /* Diagnostic summary in actions bar */
@@ -169,7 +169,7 @@
 }
 
 .tabbed-editor__diag-warnings {
-  color: #e08800;
+  color: var(--warning-color);
 }
 
 /* Env locked placeholder */

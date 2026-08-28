@@ -123,6 +123,13 @@ update specs and .tip with durable facts
 
 ## Last Run Remarks
 
+- Completed sequence index 2, `frontend_css_architecture_normalization`.
+  First-party CSS outside the token authority and isolated clipmaker boundary
+  now has no literal colors or `var()` fallbacks; shared editor, profile preview,
+  feature-card, and dead icon stylesheet ownership was corrected. The expanded
+  CSS architecture gate ratchets large-file owners and all reviewed exceptions.
+  All 300 serial frontend tests, lint, build, and five UI/CSS policy gates pass.
+
 - Completed sequence index 1, `ui_primitive_consolidation`. Foundation
   implementation and CSS authority now live under `components/ui`; deprecated
   `components/input` files are direct compatibility re-exports, core

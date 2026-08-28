@@ -50,7 +50,7 @@
 
 .feature-card:hover .feature-icon {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--text-inverse);
   transform: rotateZ(-10deg) scale(1.1);
 }
 
