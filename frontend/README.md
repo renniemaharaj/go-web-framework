@@ -1,4 +1,4 @@
-# Frontend
+# Go Web Framework Frontend
 
 React 19 + TypeScript + Vite SPA.
 

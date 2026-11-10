@@ -2,7 +2,7 @@ package cli
 
 import "fmt"
 
-const usageText = `grengo - Multi-tenant management CLI for Go Web Platform
+const usageText = `grengo - Multi-tenant management CLI for Go Web Framework
 
 Commands:
   new [<name>] [--domain <d>]… [--port <p>] Create a new client (interactive)

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Planning and durable-context upkeep routine for Go Web Platform. Use it to create, split,
+Planning and durable-context upkeep routine for Go Web Framework. Use it to create, split,
 dedupe, update, or retire `.todo/` entries and to keep `.specs/` aligned with
 implemented architecture, models, migrations, protocols, frontend contracts, and
 operational policies.

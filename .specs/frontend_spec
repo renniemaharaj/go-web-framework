@@ -67,7 +67,7 @@ navigation/narration, WebSocket consumers, or page-builder UX.
   saved HTML.
 - Forum and documentation authoring share `components/ui/RichTextEditor`; their
   persisted HTML is rendered by the same sanitized `RichTextRenderer`. The
-  responsive documentation shell is a GWP component, not a second app shell.
+  responsive documentation shell is a Go Web Framework component, not a second app shell.
 - `npm run check:media-placeholders` rejects unreviewed raw media and dynamic
   image backgrounds. The exact-count allowlist distinguishes migration debt from
   intentional shared primitive, `UserAvatar`, bundled-art, `MediaStream.srcObject`,
@@ -148,7 +148,7 @@ navigation/narration, WebSocket consumers, or page-builder UX.
 - `sectionRegistry.ts` is the compact renderer-type allowlist. Page section IDs
   and configs retain their observed numeric/string and string/object encodings;
   individual renderers narrow the config fields they consume.
-- The default `get-started` landing document is a GWP capability tour built only
+- The default `get-started` landing document is a Go Web Framework capability tour built only
   from registered `hero`, `stat_cards`, `feature_grid`, `card_group`, `rich_text`,
   and `cta` renderers. It describes optional capabilities without linking to
   feature-gated or permission-gated destinations and contains no seeded
@@ -334,7 +334,7 @@ navigation/narration, WebSocket consumers, or page-builder UX.
   description, 1611 first publication, 1769 editorial basis, maintained
   repository origin, last verification date, and Bible SuperSearch KJV module
   6.2.0 verification reference without treating that provider as corpus origin.
-- The browser, reader, picker, and favorites dialog use GWP components and
+- The browser, reader, picker, and favorites dialog use Go Web Framework components and
   global CSS tokens; icon-only `Button` controls use the compact 1.75rem
   `size="icon"` contract. No Tailwind, Redux, Radix, or remote scripture
   dependency is part of the feature.

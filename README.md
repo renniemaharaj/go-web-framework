@@ -1,18 +1,44 @@
-# Go Web Platform (GWP)
+# Go Web Framework
 
-Go Web Platform is a high-performance, multi-tenant platform powered by Go. Its React frontend uses atomic Jotai state, real-time synchronization, and server-injected SEO to combine fast navigation with search-friendly public pages.
+Go Web Framework is a high-performance, multi-tenant platform powered by Go. Its React frontend uses atomic Jotai state, real-time synchronization, and server-injected SEO to combine fast navigation with search-friendly public pages.
 
 A key capability is the optional **WebSocket Rerouter** for supported REST endpoints. It reduces repeated transport setup while preserving the platform's HTTP authorization and response boundaries, enabling efficient state updates backed by Go concurrency.
 
 The platform includes a powerful suite of integrated modules, including a customizable page builder, forums, a complete e-commerce solution with secure carting, checkout, payment handling, delivery management, order tracking, and a wallet system built around debit and credit transactions.
 
-Beyond commerce, GWP offers custom pages, documentation, forums, inbox messaging, notifications, group chat, voice and video calls, screen sharing, live presence, shared cursors, interactive forms and voting, events, rewards, rankings, and adaptive DEFCON safeguards. Organizations can connect protected datasources, build reusable components, and extend operations through Frappe Framework and Apache Superset deployments.
+Beyond commerce, Go Web Framework offers custom pages, documentation, forums, inbox messaging, notifications, group chat, voice and video calls, screen sharing, live presence, shared cursors, interactive forms and voting, events, rewards, rankings, and adaptive DEFCON safeguards. Organizations can connect protected datasources, build reusable components, and extend operations through Frappe Framework and Apache Superset deployments.
 
-The project remains published as **skaia-repo** during the surface-only phase. Repository, module, protocol, storage, and runtime identifiers move together in the separately controlled breaking-change phase.
+Go Web Framework was previously called Go Web Platform and Skaia. This rebrand
+updates documentation, comments, and displayed names. Production identifiers and
+configuration values remain unchanged, including module paths, package names,
+the `grengo` CLI, API routes, authentication issuers, browser storage keys,
+database and Docker names, and health response messages. Existing migrations,
+tenant content, and tenant branding remain authoritative.
 
-Thank you for taking the time to explore the platform and browse our current store offerings 🙏
+Licensed under the [MIT License](LICENSE).
 
 As a self-hosted platform, each tenant gets an isolated database, independent feature toggles, and its own domain - all managed from a single codebase and the **grengo** CLI.
+
+## Screenshots
+
+Captured from the running app with synthetic demo content and custom branding.
+The Sites drawer brings workspace navigation and tools into one menu.
+
+**Landing page**
+
+![Go Web Framework landing page with a hero and feature sections](assets/landing-page.png)
+
+| Sites drawer | Custom page browser |
+| --- | --- |
+| ![Sites drawer with workspace links and tools](assets/site-drawer.png) | ![Searchable custom page browser with loaded page previews](assets/custom-pages.png) |
+
+| Custom page | Visual page builder |
+| --- | --- |
+| ![Community guide assembled from reusable page blocks](assets/custom-page.png) | ![Authenticated visual page builder with inline editing controls](assets/page-builder.png) |
+
+| Forums | Store |
+| --- | --- |
+| ![Community forums with categories and discussions](assets/forums.png) | ![Storefront with demo products and prices](assets/store.png) |
 
 ## Features
 

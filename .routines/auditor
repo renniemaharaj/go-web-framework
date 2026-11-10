@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Strict whole-repository audit routine for enterprise-grade quality across Go Web Platform:
+Strict whole-repository audit routine for enterprise-grade quality across Go Web Framework:
 backend, frontend, dynamic pages, WebSocket protocols, migrations, specs, todos,
 routines, security, performance, tests, and user experience. It is more demanding
 than `correctness`: `correctness` resolves truth; `auditor` challenges whether the

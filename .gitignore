@@ -47,3 +47,27 @@ exports/
 
 # Generated Grengo node transfer archives stay local or in release storage.
 /grengo-node-*.tar.gz
+/grengo-node-*.tar.gz.manifest.json
+/grengo-client-*.tar.gz
+/grengo-client-*.tar.gz.manifest.json
+
+# Local editor settings and temporary files
+/.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Generated build and verification output
+/backend/backend
+/backend/skaia.db-wal
+/backend/skaia.db-shm
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+/frontend/test-output.txt
+/frontend/test-results.txt

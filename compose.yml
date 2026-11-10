@@ -1,4 +1,4 @@
-# Go Web Platform - Shared infrastructure
+# Go Web Framework shared infrastructure
 #
 # This compose file runs the shared services: nginx, postgres, redis.
 # Individual backend instances live in backends/<name>/compose.yml and are

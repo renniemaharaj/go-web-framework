@@ -30,7 +30,7 @@ func siteName() string {
 	if cn := strings.TrimSpace(os.Getenv("CLIENT_NAME")); cn != "" {
 		return titleCaser.String(cn)
 	}
-	return "Go Web Platform"
+	return "Go Web Framework"
 }
 
 func actionURL(path, token string) string {

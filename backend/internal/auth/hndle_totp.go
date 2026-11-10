@@ -123,6 +123,7 @@ func (h *Handler) TOTPSetup(w http.ResponseWriter, r *http.Request) {
 		utils.WriteError(w, http.StatusInternalServerError, "failed to get user info")
 		return
 	}
+	// Preserve the authenticator identity across the display-name rebrand.
 	issuer := "Go Web Platform"
 	otpauth := "otpauth://totp/" + issuer + ":" + user.Username + "?secret=" + secret + "&issuer=" + issuer + "&algorithm=SHA1&digits=6&period=30"
 	utils.WriteJSON(w, http.StatusOK, map[string]string{

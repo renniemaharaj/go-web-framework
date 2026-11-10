@@ -1,4 +1,4 @@
-# Go Web Platform Specs
+# Go Web Framework Specs
 
 `.specs/` is the authoritative, compact project context. Load this file first,
 then load only the matching spec cards below.

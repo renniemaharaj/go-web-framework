@@ -32,7 +32,7 @@ provisioning behavior.
   66 rendering-marker sidecars. Before the router starts it validates 66 books,
   1,189 chapters, 31,102 verses, consecutive coordinates, non-empty text,
   metadata identity, exact marker alignment/span bounds, the aggregate corpus
-  SHA-512, and GWP's metadata/marker snapshot SHA-512.
+  SHA-512, and Go Web Framework's metadata/marker snapshot SHA-512.
 - Redis caches are best-effort, tenant-prefixed, read-through, and invalidated on writes.
 - SSR SEO uses a typed success/absence/degraded/error resolution boundary. Only
   authoritative success and genuine absence are cacheable; core SQL/config

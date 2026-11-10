@@ -1,4 +1,4 @@
-# Backend
+# Go Web Framework Backend
 
 Go API server. Uses chi/v5, lib/pq, go-redis/v9, golang-jwt/v5.
 

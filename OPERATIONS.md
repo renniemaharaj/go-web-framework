@@ -1,4 +1,4 @@
-# Go Web Platform Operations Runbook
+# Go Web Framework Operations Runbook
 
 ## Surface Rebrand Seed Rollout
 
